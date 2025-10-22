@@ -5,7 +5,7 @@ let selected = ["Pinturas","Plumilla","Bio"];
 let imgRoutes = ["#f00","#0f0","#00f" ];
 habilitar(seleccion, pov);
 $(document).on("keydown",(tecla) => {
-    if (tecla.keyCode == 08 ) {
+    if (tecla.keyCode == 8 ) {
         window.location.replace("../index.html");
     }
 })
@@ -74,4 +74,12 @@ function habilitar(guide,elementos) {
             });
         }
     }
+}
+function cargar() {
+    if ("loading" in HTMLImageElement.prototype) {
+        console.log("El navegador soporta `lazy-loading`...");
+    } else {
+        console.log("`lazy-loading` no soportado...");
+    }
+
 }
