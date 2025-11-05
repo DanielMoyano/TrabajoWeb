@@ -1,0 +1,2 @@
+Las imágenes de prueba usadas fueron realizadas mediante inteligencia artificial (chatgpt), de diferentes temas con derechos de autor, por ende el uso para fines comerciales no está permitido.
+Muchas gracias
