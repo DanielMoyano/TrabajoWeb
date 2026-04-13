@@ -168,7 +168,68 @@ footer > div {
     position: relative;
     text-align: center;
 }
-/*PRUEBAS*/
-#cuadrícula {
-    
+#demo {
+    position:absolute;
+    height:80vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
 }
+/*PRUEBAS*/
+#c2 {
+    background-color: orange;
+    width: 78vw;
+    position:relative;
+    margin:auto;
+    /* display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    align-items: center; */
+    display:flex;
+    flex-wrap: wrap;
+
+}
+/* #c2 div {
+    background-color: aqua;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+ /* #c2 img {
+    width: 100%;
+ } */
+  .col {
+    margin-top: 8px;
+    flex: 33.3%;
+    box-sizing: border-box;
+    padding: 0 4px;
+
+  }
+.col img {
+    width: 100%;
+    border-radius: 1%;
+}
+/* #i0 {
+    grid-row-start: 1;
+    grid-row-end:3;
+} 
+#i2 {
+    grid-column-start: 3;
+    /* grid-row-start: 1;
+    grid-row-end:3; 
+
+}
+#i4 {
+    grid-column-start: 2;
+    /* grid-row-start: 2;
+    grid-row-end:4; 
+
+}
+#i7 {
+    grid-column-start: 2;
+    /* grid-row-start:4;
+    grid-row-end:6; 
+}
+#i11 {
+    grid-column-start:2;
+}*/
